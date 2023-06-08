@@ -1,10 +1,10 @@
 // write your CatList component here
 
 import React from 'react'
-import useSelector from 'react-redux'
+import {useSelector} from 'react-redux'
 
 export default function List(){
-  const listing = Useselector(state=>state.cats.entities)
+  const listing = Useselector(state=>state.entities)
 return(
 <ul>
   {listing.map(list)=>{
